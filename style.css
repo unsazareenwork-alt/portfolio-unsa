@@ -218,3 +218,20 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+.social-links {
+    font-size: 38px;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.icon:hover {
+    transform: translateY(-10px) scale(1.5);
+}
